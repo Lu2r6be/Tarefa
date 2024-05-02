@@ -39,3 +39,9 @@ function listarTarefas(){
     }
     document.getElementById("lista").innerHTML =valor;
 }
+//Função Remover Tarefas
+
+function removerTarefa(){
+    tarefas.pop();
+    listarTarefas();
+}
